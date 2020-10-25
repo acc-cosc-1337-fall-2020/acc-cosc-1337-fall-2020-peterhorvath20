@@ -1,0 +1,434 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test/examples_test/02_module_test/ex_02_tests.exe"
+		},
+		{
+			"path" : "test/examples_test/02_module_test/ex_02_tests.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"test/examples_test/02_module_test/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -std=c++17 -Wall /MDd /Zi /Ob0 /Od /RTC1  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/out/build/x64-Debug (default)/CMakeFiles/ShowIncludes"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/01_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/02_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/03_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/04_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/05_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/classwork/06_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/01_hello_world"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/02_int"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/03_input"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/04_decimals"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/05_auto"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/06_char"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/01_module/07_string"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/01_expressions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/02_casting"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/03_overflow"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/04_constants"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/05_data_type_size"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/02_module/06_multi_assign"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/03_module/01_if"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/03_module/02_if_else"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/03_module/03_switch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/01_while"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/02_for"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/03_do_while"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/04_for_ranged"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/05_value_and_reference_params"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/06_vectors"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/04_module/07_vectors_for_ranged"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/05_module"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/06_module/01_bank"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/06_module/02_shapes"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/07_module"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/08_module"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/01_ref_pointers"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/02_dynamic_memory"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/03_memory_leak"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/04_dangling_pointer"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/05_class_copy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/09_module/06_vector"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/00_model"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/01_arrays_mem"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/02_arrays_access"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/03_arrays_for_range"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/04_arrays_pointers"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/05_arrays_functions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/06_arrays_char"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/07_arrays_dyn_ch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/08_arrays_dyn_1"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/09_arrays_dyn_2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/10_module/10_arrays_dyn_3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/11_module"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/12_module/01_shapes"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/12_module/02_clock"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/examples/13_module/01_recursion"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/01_variables"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/02_expressions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/03_decisions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/04_iteration"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/05_vectors"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peter/source/repos/acc-cosc-1337-fall-2020-peterhorvath20/src/homework/tic_tac_toe"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_01_library::@a69b20f5766f22038cc4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_04_library::@b34bf910ade2f57b0371"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_02_library::@c3e817276938a85ca229"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_05_library::@71ea9d3be87faf4437ea"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_06_library::@d367ea1b03b23f0594a1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_02_03_library::@4170806a1e5392e85fda"
+		}
+	],
+	"id" : "ex_02_tests::@f0478fca52f7d9c22e23",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -std=c++17 -Wall /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\01_expressions\\ex_02_01_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\02_casting\\ex_02_02_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\03_overflow\\ex_02_03_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\04_constants\\ex_02_04_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\05_data_type_size\\ex_02_05_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\src\\examples\\02_module\\06_multi_assign\\ex_02_06_library.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ex_02_tests",
+	"nameOnDisk" : "ex_02_tests.exe",
+	"paths" : 
+	{
+		"build" : "test/examples_test/02_module_test",
+		"source" : "test/examples_test/02_module_test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/examples_test/02_module_test/02_module_tests.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -2,13 +2,13 @@
 #include "catch.hpp"
 #include "tic_tac_toe.h"
 
-TEST_CASE("Test game over if 9 slots are selected.", "verification") {
+TEST_CASE("Test game over if 9 slots are selected.") {
 	TicTacToe game;
 
 	game.start_game("X");
 
 	for (int i = 1; i < 10; i++)
-		game.mark_board(i)
+		game.mark_board(i);
 
 	REQUIRE(game.game_over() == true);
 }

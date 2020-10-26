@@ -1,15 +1,20 @@
 #include "tic_tac_toe.h"
 
-bool TicTacToe::game_over() 
+bool TicTacToe::game_over()
 {
   return check_board_full();
 }
 
 void TicTacToe::start_game(string first_player)
 {
-  if (first_player == "X" || first_player == "O")
+  if (first_player == "X" || first_player == "x")
   {
-    player = first_player;
+    player = "X";
+    clear_board();
+  }
+  else if (first_player == "O" || first_player == "o")
+  {
+    player = "O";
     clear_board();
   }
 }

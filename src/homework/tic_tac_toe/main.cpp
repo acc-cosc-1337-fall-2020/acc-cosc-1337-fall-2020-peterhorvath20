@@ -1,13 +1,13 @@
-#include "tic_tac_toe.h"
+#include "tic_tac_toe_manager.h"
 
 int main()
 {
 	TicTacToe game;
 	string player1;
-	int pos;
 	string win;
 	bool repeat = false;
 	string cont;
+	TicTacToeManager manager;
 
 	do {
 		do {
@@ -18,12 +18,8 @@ int main()
 		game.start_game(player1);
 
 		do {
-			do {
-				cout << "\nEnter position from 1 to 9: ";
-				cin >> pos;
-			} while (pos < 0 || pos > 10);
-			game.mark_board(pos);
-			game.display_board();
+			cin >> game;
+			cout << game;
 		} while (!game.game_over());
 		cout << "Game over\n";
 		win = game.get_winner();
@@ -32,6 +28,8 @@ int main()
 		else
 			cout << game.get_winner() << " wins!\n";
 
+		manager.save_game(game);
+
 		cout << "Play again? Enter y to continue: ";
 		cin >> cont;
 		if (cont == "Y" || cont == "y")
@@ -39,5 +37,8 @@ int main()
 		else
 			repeat = false;
 	} while (repeat);
+
+	cout << manager;
+
 	return 0;
 }

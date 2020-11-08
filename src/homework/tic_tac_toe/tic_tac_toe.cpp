@@ -42,16 +42,31 @@ string TicTacToe::get_player() const
   return player;
 }
 
-void TicTacToe::display_board() const
-{ // print in 3x3 format
-  cout << pegs[0] << "|" << pegs[1] << "|" << pegs[2] << "\n"
-    << pegs[3] << "|" << pegs[4] << "|" << pegs[5] << "\n"
-    << pegs[6] << "|" << pegs[7] << "|" << pegs[8] << "\n";
-}
-
 string TicTacToe::get_winner()
 {
   return winner;
+}
+
+ostream& operator<<(ostream& os, const TicTacToe& game)
+{ // print in 3x3 format
+  os << "\n" << game.pegs[0] << "|" << game.pegs[1] << "|" << game.pegs[2] << "\n"
+    << game.pegs[3] << "|" << game.pegs[4] << "|" << game.pegs[5] << "\n"
+    << game.pegs[6] << "|" << game.pegs[7] << "|" << game.pegs[8] << "\n";
+
+  return os;
+}
+
+istream& operator>>(istream& is, TicTacToe& game)
+{
+  int pos;
+
+  do {
+    cout << "\nEnter position from 1 to 9: ";
+    is >> pos;
+  } while (pos < 0 || pos > 10);
+  game.mark_board(pos);
+
+  return is;
 }
 
 // priv
